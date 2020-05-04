@@ -1,0 +1,1242 @@
+/* 
+
+------------------
+Template Name: Merestora Template
+Author Email: mh.web.mehedihassan@gmail.com
+Version: 1.00
+----------------
+
+----------------
+Table of Content
+----------------
+1.Navbar Part
+2.Banner Part
+3.Special Part
+4.Menu Part 
+5.Team Part
+6.Review Part
+7.Book A Table Part
+8.Opening Hour Part
+9.Gallary Part
+11.Blog Part
+12.Contact Part
+
+*/
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.card-title {
+    margin: 0;
+}
+
+.card-text {
+    margin: 0;
+}
+
+.bg {
+    background: rgba(0, 0, 0, 0.7);
+    animation: navbar 1s;
+}
+
+@keyframes navbar {
+    from {
+        top: -80px;
+    }
+
+    to {
+        top: 0;
+    }
+}
+
+.back2top i {
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    background: #ED4E53;
+    line-height: 40px;
+    text-align: center;
+}
+
+.back2top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+
+}
+
+
+/*=================Navbar Part CSS Start====================*/
+#navbar {
+    border-bottom: 1px dashed #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    width: 100%;
+    z-index: 99999999;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand img {
+    padding: 0 10px;
+    width: 110px;
+    height: 50px;
+}
+
+.navbar-light .navbar-brand {
+    border-right: 1px solid #fff;
+}
+
+.navbar-light .navbar-brand {
+    font-size: 30px;
+    padding: 15px 20px;
+    color: #fff;
+    transition: all linear .3s;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    transition: all linear .3s;
+    padding: 0 10px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ED4E53;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #fff;
+}
+
+.navber-button {
+    padding: 28px 20px;
+    border-left: 1px solid #fff;
+}
+
+
+.navbar-cmt {
+    padding: 15px 20px;
+    background: #ED4E53;
+
+}
+
+.navber-button a {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+
+.navber-button a:hover {
+    background: rgba(0, 0, 0, 0.7);
+    color: #ED4E53;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    position: relative;
+    padding: 5px 15px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #ED4E53;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ED4E53;
+}
+
+
+.hvr-underline-from-center:before {
+    background: #ED4E53;
+    height: 1px;
+}
+
+/*================Banner Part CSS==============*/
+#banner {
+    padding-top: 250px;
+    padding-bottom: 150px;
+    background: url(../img/banner/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+#banner:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.banner-img {
+    position: relative;
+
+}
+
+.banner-header {
+    position: absolute;
+    z-index: 99999;
+}
+
+.banner-header h1 {
+    font-size: 80px;
+    font-weight: 600;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    letter-spacing: 7px;
+}
+
+.banner-header h3 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    letter-spacing: 5px;
+    padding-bottom: 30px;
+}
+
+.banner-header p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 26px;
+    padding: 0 180px;
+}
+
+.banner-link {
+    position: absolute;
+    z-index: 9999;
+    transform: rotate(-90deg);
+    top: 50%;
+    left: -3%;
+}
+
+.banner-link a {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #ED4E53;
+    letter-spacing: 2px;
+    padding: 0 10px;
+    transition: all linear .3s;
+}
+
+.banner-a {
+    padding-top: 100px;
+}
+
+.banner-a a {
+    padding: 15px 25px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    background: rgba(34, 34, 34, 0.85);
+    color: #fff;
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+
+.banner-a a:hover {
+    text-decoration: none;
+    background: #ED4E53;
+    color: #222;
+    font-weight: 500;
+}
+
+
+/*===============Special Part CSS==============*/
+#special {
+    padding-top: 80px;
+    padding-bottom: 57px;
+}
+
+.special-header h2 {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Satisfy', cursive;
+    color: #222;
+    padding-bottom: 10px;
+}
+
+.special-header h3 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #444;
+    padding-bottom: 50px;
+}
+
+.special-item .card {
+    border: 0;
+    transition: all linear .3s;
+}
+
+.special-item .card a {
+    overflow: hidden;
+}
+
+.special-item .card-img-top {
+    width: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    transition: all linear .3s;
+}
+
+.special-item .card-img-top:hover {
+    transform: scale(1.2);
+}
+
+.special-item .card-body {
+    position: relative;
+    text-align: center;
+    background: transparent;
+}
+
+.special-item .card-body h5 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Alegreya', serif;
+    color: #222;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+.special-item .card-body p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    line-height: 24px;
+}
+
+.special-item .card-body .special-price {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.special-item .card-body .special-price h2 {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    padding: 10px 20px;
+    background: #ED4E53;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*==================Menu Part CSS=====================*/
+#menu {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    background: #fff;
+}
+
+.menu-header {
+    position: relative;
+    z-index: 99;
+    padding-bottom: 10px;
+}
+
+.menu-header h2 {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Satisfy', cursive;
+    color: #222;
+    padding-bottom: 15px;
+}
+
+.menu-header h3 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #222;
+}
+
+
+.menu-button {
+    position: relative;
+    z-index: 99;
+    padding-bottom: 15px;
+}
+
+.menu-button .btn {
+    margin-top: 30px;
+    color: #222;
+    border: 1px solid #222;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Satisfy', cursive;
+    background: transparent;
+    margin-left: 20px;
+    border-radius: 0;
+    transition: all linear .3s;
+}
+
+.menu-button .btn:hover {
+    background: #ED4E53;
+    color: #fff;
+    border: 1px solid #ED4E53;
+}
+
+.menu-item {
+    position: relative;
+    z-index: 99;
+    padding: 0 40px;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    transition: all linear .3s;
+}
+
+
+.menu-item img {
+    width: 150px;
+    height: 125px;
+}
+
+.menu-item h5 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #222;
+    padding-bottom: 10px;
+    transition: all linear .3s;
+}
+
+.menu-item p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+    letter-spacing: 1px;
+    transition: all linear .3s;
+}
+
+.menu-item a {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #222;
+    padding-bottom: 10px;
+    transition: all linear .3s;
+}
+
+.menu-item .media-body {
+    margin-left: 15px;
+}
+
+.menu-item .media-body:hover h5 {
+    color: #ED4E53;
+}
+
+.menu-item .media-body:hover p {
+    color: #ED4E53;
+}
+
+.menu-item .media-body:hover a {
+    color: #ED4E53;
+    text-decoration: none;
+}
+
+.menu-item .media-body a:hover {
+    color: #222;
+    text-decoration: none;
+}
+
+.menu-item .menu-item-two {
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+.menu-item-img {
+    position: relative;
+}
+
+.menu-item-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 50%;
+    opacity: 0;
+    transition: all linear .3s;
+}
+
+.menu-item:hover .menu-item-overlay {
+    opacity: 1;
+    right: 0;
+}
+
+.menu-item-overlay-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    opacity: 0;
+    transition: all linear .3s;
+}
+
+.menu-item:hover .menu-item-overlay-2 {
+    opacity: 1;
+    left: 0;
+}
+
+
+/*============================Team Part CSS Start=============================*/
+#team {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+
+.team-header {
+    padding-bottom: 30px;
+}
+
+.team-header h3 {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Satisfy', cursive;
+    color: #222;
+}
+
+.team-header h4 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #444;
+}
+
+.team-item .card {
+    border: 0;
+    transition: all linear .3s;
+}
+
+.team-item .card-img-top {
+    width: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    transition: all linear .3s;
+}
+
+.team-item .card-body {
+    border: 1px solid #ED4E53;
+}
+
+.team-item .card-body h5 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #222;
+    padding-bottom: 5px;
+}
+
+.team-item .card-body p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+    line-height: 24px;
+}
+
+.team-item .card-img {
+    position: relative;
+    transition: all linear .3s;
+    overflow: hidden;
+}
+
+.team-item .card-img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: all linear .3s;
+}
+
+.team-item .card-img:hover .card-img-overlay {
+    opacity: 1;
+}
+
+.team-item .card-img-overlay i {
+    position: relative;
+    font-size: 20px;
+    color: #ED4E53;
+    left: 0;
+    top: 0;
+    transition: all linear .3s;
+}
+
+.team-item .card-img:hover .card-img-overlay i {
+    top: 50%;
+}
+
+.team-item .card-img:hover img {
+    transform: scale(1.2);
+}
+
+
+/*============================Review Part CSS Start=============================*/
+#review {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    background: url(../img/review/review.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#review:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+
+}
+
+.review-header {
+    position: relative;
+    z-index: 999;
+    padding-bottom: 30px;
+}
+
+.review-slider {
+    position: relative;
+    z-index: 999;
+}
+
+.review-slider .slick-slide img {
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.review-item {
+    padding: 15px 0;
+}
+
+.review-item h3 {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Satisfy', cursive;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.review-item p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    padding: 0 100px;
+    padding-bottom: 10px;
+    line-height: 24px;
+}
+
+.review-item i {
+    font-size: 18px;
+    color: #fff;
+    transition: all linear .3s;
+}
+
+.review-item i:hover {
+    color: #ED4E53;
+}
+
+.review-item img {
+    padding-bottom: 10px;
+}
+
+
+/*======================Book A Table Part CSS Start======================*/
+#table {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.table-img img {
+    width: 100%;
+}
+
+.table-header {
+    padding-left: 15px;
+}
+
+.table-header h2 {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Satisfy', cursive;
+    color: #222;
+}
+
+.table-header h3 {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #444;
+    padding-bottom: 30px;
+}
+
+.table-header p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    line-height: 26px;
+
+}
+
+.form-row {
+    margin-left: 15px;
+}
+
+.table-input {
+    margin-top: 30px;
+}
+
+.table-input .form-control {
+    border: 1px dashed #ED4E53;
+    border-radius: 0;
+    padding: 10px 20px;
+}
+
+.table-input .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #ED4E53;
+}
+
+.table-input textarea {
+    resize: none;
+    height: 95px;
+}
+
+.table-button .btn {
+    margin-top: 30px;
+    color: #222;
+    border: 1px dashed #ED4E53;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Satisfy', cursive;
+    background: transparent;
+    margin-left: 20px;
+    border-radius: 0;
+    transition: all linear .3s;
+}
+
+.table-button .btn:hover {
+    background: #ED4E53;
+    color: #fff;
+}
+
+
+/*============================Opening Hour Part CSS Start=============================*/
+#open {
+    padding-top: 80px;
+    padding-bottom: 55px;
+    background: url(../img/open/open.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#open:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.open-header {
+    position: relative;
+    z-index: 99;
+    padding-bottom: 60px;
+}
+
+.open-header h2 {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Satisfy', cursive;
+    color: #fff;
+    padding-bottom: 5px;
+}
+
+.open-header h3 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+}
+
+.open-time {
+    position: relative;
+    z-index: 99;
+}
+
+.open-left {
+    border-right: 1px solid #fff;
+}
+
+.open-left h2 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    padding-bottom: 5px;
+}
+
+.open-left h3 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    padding-bottom: 5px;
+}
+
+.open-left h4 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+}
+
+.open-right {
+    border-left: 1px solid #fff;
+}
+
+.open-right h2 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    padding-bottom: 5px;
+}
+
+.open-right h3 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+    padding-bottom: 5px;
+}
+
+.open-right h4 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+}
+
+.open-contact {
+    padding-top: 60px;
+    position: relative;
+    z-index: 99;
+}
+
+.open-contact a {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #ED4E53;
+}
+
+
+/*============================Gallary Part CSS Start=============================*/
+#gallary {
+    padding-top: 80px;
+    padding-bottom: 65px;
+}
+
+.gallary-header h2 {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Satisfy', cursive;
+    color: #222;
+    padding-bottom: 10px;
+}
+
+.gallary-header h3 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #444;
+    padding-bottom: 35px;
+}
+
+.gallary-img {
+    position: relative;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.gallary-img img {
+    width: 100%;
+    transition: all linear .3s;
+}
+
+.gallary-img:hover img {
+    transform: scale(1.2);
+}
+
+.gallary-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: all linear .3s;
+}
+
+.gallary-overlay i {
+    position: relative;
+    font-size: 20px;
+    color: #ED4E53;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+    transition: all linear .3s;
+}
+
+.gallary-img:hover .gallary-overlay {
+    opacity: 1;
+}
+
+.gallary-img:hover .gallary-overlay i {
+    top: 50%;
+}
+
+.gallary-button {
+    padding-bottom: 10px;
+}
+
+.gallary-button .btn {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Satisfy', cursive;
+    background: transparent;
+    border: 1px solid #222;
+    padding: 10px 40px;
+    margin: 0 18px;
+    color: #222;
+    transition: all linear .3s;
+    border-radius: 0;
+}
+
+.gallary-button .btn:hover {
+    color: #fff;
+    background: #ED4E53;
+    border: 1px solid #ED4E53;
+}
+
+.gal-button .btn {
+    margin-top: 40px;
+    color: #222;
+    border: 1px solid #222;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Satisfy', cursive;
+    background: transparent;
+    margin-left: 20px;
+    border-radius: 0;
+    transition: all linear .3s;
+}
+
+.gal-button .btn:hover {
+    background: #ED4E53;
+    color: #fff;
+}
+
+
+/*============================Blog Part CSS Start=============================*/
+#blog {
+    padding-top: 80px;
+    padding-bottom: 75px;
+}
+
+.blog-header {
+    padding-bottom: 30px;
+}
+
+.blog-header h2 {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Satisfy', cursive;
+    color: #222;
+}
+.blog-item .card {
+    border: 0;
+}
+
+.blog-item .card-img-top {
+    width: 100%;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.blog-item .card-body {
+    padding: 0;
+}
+
+.blog-item .card-title {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #222;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.blog-item span {
+    color: #999;
+}
+
+.blog-item .card-text {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+    padding-bottom: 15px;
+    line-height: 26px;
+}
+
+.blog-item a {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #222;
+    transition: all linear .3s;
+}
+
+.blog-item a:hover {
+    text-decoration: none;
+    color: #ED4E53;
+}
+
+.blog-item i {
+    font-size: 14px;
+    color: #222;
+    padding-left: 14px;
+    transition: all linear .3s;
+}
+
+.blog-item:hover i {
+    color: #ED4E53;
+    padding-left: 20px;
+}
+
+
+/*============================Contac Part CSS Start=============================*/
+#footer {
+    padding-top: 80px;
+    padding-bottom: 10px;
+    background: #222;
+}
+
+.footer-social {
+    padding-bottom: 30px;
+}
+
+.footer-social i {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 18px;
+    margin: 0 15px;
+    transition: all linear .3s;
+}
+
+.footer-social i:hover {
+    color: #ED4E53;
+    border: 1px solid #ED4E53;
+}
+
+.footer-zindex {
+    position: relative;
+    z-index: 99;
+}
+
+.footer-header {
+    padding-bottom: 30px;
+}
+
+.footer-header img {
+    width: 110px;
+}
+
+
+.footer-contact h2 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer-contact h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer-contact h4 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer-contact h5 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.f-con-one {
+    border-right: 2px solid #ED4E53;
+}
+
+.copyright {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.copyright h2 {
+    font-size: 16px;
+    font-weight: 300;
+    color: #999;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer-a {
+    padding-top: 30px;
+}
+
+.footer-a a {
+    font-size: 18px;
+    color: #222;
+    font-family: 'Alegreya', serif;
+    padding: 10px 30px;
+    background: #ED4E53;
+    border-radius: 15px 15px 0 0;
+    transition: all linear .3s;
+}
+
+.footer-a a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*==================Preeloader CSS Part Start======================*/
+.load {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 99999999999;
+    background: #fff;
+}
+
+body {
+    overflow: hidden;
+}
+
+.load img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.load_finish {
+    display: none;
+}
+
+
+
+
+
+
+
+
+/*
+    font-family: 'Alegreya', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Satisfy', cursive;
+*/

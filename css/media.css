@@ -1,0 +1,972 @@
+/*================Extra small devices (portrait phones, less than 576px)================*/
+
+@media (max-width: 575.98px) {
+    .navbar-light .navbar-brand {
+        padding: 5px 10px;
+        border: transparent;
+    }
+
+    .navbar-toggler a {
+        color: #fff;
+    }
+
+    .navber-button a {
+        display: none;
+    }
+
+    .navber-button {
+        display: none;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        background: rgba(34, 34, 34, 0.68);
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+        border-radius: 0;
+        margin-right: 35px;
+        font-size: 24px;
+        transition: all linear .3s;
+    }
+
+    #banner {
+        padding-top: 90px;
+        padding-bottom: 80px;
+    }
+
+
+    .banner-header h1 {
+        font-size: 48px;
+        letter-spacing: 0px;
+    }
+
+    .banner-header h3 {
+        font-size: 17px;
+        letter-spacing: 2px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+
+    .banner-header p {
+        font-size: 13px;
+        letter-spacing: 0px;
+        padding: 0 1px;
+        line-height: 20px;
+    }
+
+    .banner-a {
+        padding-top: 20px;
+    }
+
+    .banner-link a {
+        display: none;
+    }
+
+    #special {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .special-item .card-body h2 {
+        top: 41%;
+    }
+
+    #menu {
+        padding-top: 45px;
+        padding-bottom: 40px;
+    }
+
+    .menu-button {
+        padding-bottom: 0px;
+    }
+
+    .menu-item {
+        padding: 0 15px;
+        margin-top: 15px;
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+
+    .menu-button {
+        margin-top: 20px;
+    }
+
+    .menu-button .btn {
+        margin: 5px 3px;
+        font-size: 14px;
+        padding: 7px 25px;
+    }
+
+    .menu-item img {
+        width: 100px;
+        height: 80px;
+    }
+
+    .menu-item h5 {
+        font-size: 11px;
+        padding-bottom: 5px;
+    }
+
+    .menu-item p {
+        font-size: 10px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .menu-item span {
+        display: none;
+    }
+
+    .menu-item a {
+        font-size: 11px;
+    }
+
+    .menu-header {
+        padding-bottom: 0px;
+    }
+
+    .menu-header h2 {
+        padding-bottom: 0px;
+    }
+
+    #team {
+        padding-top: 50px;
+        padding-bottom: 55px;
+    }
+
+    #table {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .table-h2 {
+        padding-bottom: 15px;
+    }
+
+    .table-header h2 {
+        padding-top: 30px;
+    }
+
+    .table-header h3 {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+
+    .table-header p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    .table-input {
+        margin-top: 18px;
+    }
+
+    .table-button .btn {
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+
+    #open {
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+
+    .open-header {
+        padding-bottom: 24px;
+    }
+
+    .open-header h3 {
+        font-size: 18px;
+    }
+
+    .open-left h2 {
+        font-size: 18px;
+    }
+
+    .open-left h3 {
+        font-size: 18px;
+    }
+
+    .open-left h4 {
+        font-size: 18px;
+    }
+
+    .open-right h2 {
+        font-size: 18px;
+    }
+
+    .open-right h3 {
+        font-size: 18px;
+    }
+
+    .open-right h4 {
+        font-size: 18px;
+    }
+
+    .open-left {
+        border-bottom: 1px solid #fff;
+        padding-bottom: 15px;
+        border-right: 0;
+    }
+
+    .open-right {
+        padding-top: 15px;
+        border-left: 0;
+    }
+
+    .open-contact {
+        padding-top: 26px;
+    }
+
+    #gallary {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .gallary-header h3 {
+        padding-bottom: 30px;
+    }
+
+    .gallary-button .btn {
+        margin: 5px 5px;
+        font-size: 14px;
+        padding: 7px 25px;
+    }
+
+    .gal-button {
+        margin-top: 20px;
+    }
+
+    .review-item p {
+        font-size: 12px;
+        padding: 0 0;
+        margin-bottom: 10px;
+    }
+
+    .review-slider {
+        padding: 0px 0px;
+    }
+
+    .review-item h3 {
+        padding-bottom: 5px;
+    }
+
+    #blog {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .blog-header {
+        padding-bottom: 15px;
+    }
+
+    .blog-item .card-body h2 {
+        font-size: 12px;
+        top: 71%;
+    }
+
+    .img-overlay-text p {
+        font-size: 14px;
+    }
+
+    .img-overlay-text p {
+        font-size: 14px;
+    }
+
+
+    #footer {
+        padding-top: 40px;
+    }
+
+    .footer-social i {
+        margin: 0 2px;
+    }
+
+    .footer-social {
+        padding-bottom: 15px;
+    }
+
+    .footer-header {
+        padding-bottom: 13px;
+    }
+
+    .footer-contact h2 {
+        padding-bottom: 4px;
+    }
+
+    .footer-contact h3 {
+        padding-bottom: 4px;
+    }
+
+    .footer-contact h4 {
+        padding-bottom: 4px;
+    }
+
+    .footer-contact h5 {
+        padding-bottom: 4px;
+    }
+
+    .copyright h2 {
+        font-size: 12px;
+    }
+
+    .copyright {
+        padding-top: 8px;
+        padding-bottom: 15px;
+    }
+
+    .f-con-one {
+        border-right: transparent;
+    }
+
+    .back2top {
+        right: 40px;
+        bottom: 40px
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/*====================Small devices (landscape phones, 576px and up)====================*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-toggler a {
+        color: #fff;
+    }
+
+    .navbar-light .navbar-brand {
+        padding: 10px 15px;
+        border: transparent;
+    }
+
+    .navber-button a {
+        display: none;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        background: rgba(34, 34, 34, 0.68);
+    }
+
+    .banner-link {
+        left: -85px;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+        border-radius: 0;
+        margin-right: 15px;
+    }
+
+    #banner {
+        padding-top: 140px;
+        padding-bottom: 72px;
+        height: 100vh;
+    }
+
+    .banner-header h1 {
+        font-size: 65px;
+        letter-spacing: 5px;
+        padding-bottom: 5px;
+    }
+
+    .banner-header h3 {
+        padding-bottom: 20px;
+    }
+
+    .banner-header p {
+        font-size: 14px;
+        padding: 0 20px;
+    }
+
+    .banner-a {
+        padding-top: 25px;
+    }
+
+    #special {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .special-item .card-body h5 {
+        font-size: 22px;
+        padding-bottom: 10px;
+    }
+
+    #menu {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .menu-button .btn {
+        margin: 5px 5px;
+        padding: 8px 20px;
+    }
+
+    .menu-item img {
+        width: 100px;
+        height: 80px;
+    }
+
+    .menu-item h5 {
+        font-size: 14px;
+        padding-bottom: 5px;
+    }
+
+    .menu-item p {
+        font-size: 11px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .menu-item span {
+        display: none;
+    }
+
+    .menu-item a {
+        font-size: 13px;
+    }
+
+    .menu-item {
+        margin-top: 15px;
+        padding-bottom: 5px;
+    }
+
+    .menu-header h2 {
+        padding-bottom: 0;
+    }
+
+    .menu-header {
+        padding-bottom: 10px;
+    }
+
+    .menu-button {
+        padding-bottom: 0;
+        padding-top: 10px;
+    }
+
+
+
+    #team {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .review-item p {
+        font-size: 16px;
+        padding: 0 0;
+        padding-bottom: 5px;
+    }
+
+    .review-slider {
+        padding: 10px 0px;
+    }
+
+    .table-header h2 {
+        padding-top: 30px;
+    }
+
+    #table {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    #open {
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+
+    .open-header {
+        padding-bottom: 40px;
+    }
+
+
+    .open-left {
+        border-bottom: 1px solid #fff;
+        padding-bottom: 15px;
+        border-right: 0;
+    }
+
+    .open-right {
+        padding-top: 15px;
+        border-left: 0;
+    }
+
+    .open-contact {
+        padding-top: 26px;
+    }
+
+    .gallary-button .btn {
+        margin: 0 5px;
+        margin-top: 30px;
+    }
+
+    #gallary {
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+
+    .gallary-header h3 {
+        padding-bottom: 20px;
+    }
+
+    #footer {
+        padding-top: 40px;
+    }
+
+    .footer-social i {
+        margin: 0 5px;
+    }
+
+    .footer-social {
+        padding-bottom: 15px;
+    }
+
+    .footer-header {
+        padding-bottom: 13px;
+    }
+
+    .footer-contact h2 {
+        padding-bottom: 4px;
+    }
+
+    .footer-contact h3 {
+        padding-bottom: 4px;
+    }
+
+    .footer-contact h4 {
+        padding-bottom: 4px;
+    }
+
+    .footer-contact h5 {
+        padding-bottom: 4px;
+    }
+
+    .copyright h2 {
+        font-size: 14px;
+    }
+
+    .copyright {
+        padding-top: 12px;
+        padding-bottom: 15px;
+    }
+
+    .f-con-one {
+        border-right: transparent;
+    }
+
+
+}
+
+/*========================Medium devices (tablets, 768px and up)========================*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-toggler a {
+        color: #fff;
+        margin-left: -45px;
+    }
+
+    .navbar-light .navbar-brand {
+        padding: 15px 20px;
+        border: transparent;
+    }
+
+    .navber-button a {
+        display: none;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        background: rgba(34, 34, 34, 0.68);
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #fff;
+        border-radius: 0;
+        margin-right: 15px;
+    }
+
+    .banner-link {
+        left: -85px;
+    }
+
+    #banner {
+        padding-top: 85px;
+        padding-bottom: 72px;
+        height: 100vh;
+    }
+
+    .banner-header h1 {
+        font-size: 55px;
+        letter-spacing: 5px;
+        padding-top: 130px
+    }
+
+    .banner-header h3 {
+        padding-bottom: 10px;
+    }
+
+    .banner-header p {
+        font-size: 14px;
+        padding: 0 65px;
+    }
+
+    .banner-a {
+        padding-top: 5px;
+    }
+
+    #special {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .special-item .card-body h5 {
+        padding-top: 25px;
+        padding-bottom: 5px;
+    }
+
+
+    #menu {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .menu-button .btn {
+        margin: 5px 5px;
+        padding: 10px 35px;
+    }
+
+
+    .menu-item {
+        margin-top: 15px;
+        padding-bottom: 5px;
+    }
+
+
+    .menu-item h5 {
+        font-size: 18px;
+        padding-bottom: 8px;
+    }
+
+    .menu-item p {
+        font-size: 13px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .menu-item a {
+        font-size: 15px;
+    }
+
+    .menu-button {
+        padding-bottom: 0px;
+        padding-top: 10px;
+    }
+
+
+
+    #team {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .review-item p {
+        font-size: 20px;
+        padding: 0 0;
+        padding-bottom: 5px;
+    }
+
+    .review-slider {
+        padding: 10px 0px;
+    }
+
+    .table-header h2 {
+        padding-top: 30px;
+    }
+
+    #table {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    #open {
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+
+    .open-header {
+        padding-bottom: 40px;
+    }
+
+    .open-left {
+        border-bottom: 1px solid #fff;
+        padding-bottom: 15px;
+    }
+
+    .open-right {
+        padding-top: 15px;
+    }
+
+    .open-contact {
+        padding-top: 26px;
+    }
+
+    .gallary-button .btn {
+        margin: 0 5px;
+    }
+
+    .gallary-button .btn {
+        margin-top: 30px;
+    }
+
+    #gallary {
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+
+    .gallary-header h3 {
+        padding-bottom: 20px;
+    }
+
+    #footer {
+        padding-top: 40px;
+    }
+
+    .footer-social i {
+        margin: 0 5px;
+    }
+
+    .footer-social {
+        padding-bottom: 15px;
+    }
+
+    .footer-header {
+        padding-bottom: 13px;
+    }
+
+    .footer-contact h2 {
+        padding-bottom: 4px;
+    }
+
+    .footer-contact h3 {
+        padding-bottom: 4px;
+    }
+
+    .footer-contact h4 {
+        padding-bottom: 4px;
+    }
+
+    .footer-contact h5 {
+        padding-bottom: 4px;
+    }
+
+    .copyright h2 {
+        font-size: 14px;
+    }
+
+    .copyright {
+        padding-top: 12px;
+        padding-bottom: 15px;
+    }
+
+    .f-con-one {
+        border-right: transparent;
+    }
+
+}
+
+/*========================Large devices (desktops, 992px and up)========================*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    #banner {
+        padding-top: 145px;
+        padding-bottom: 150px;
+    }
+
+    .banner-header h1 {
+        font-size: 60px;
+        padding-bottom: 10px;
+    }
+
+    .banner-header p {
+        padding: 0 125px;
+    }
+
+    .banner-a {
+        padding-top: 50px;
+    }
+
+    #special {
+        padding-top: 50px;
+        padding-bottom: 35px;
+    }
+
+    .special-header h3 {
+        padding-bottom: 40px;
+    }
+
+    .special-item .card-body h5 {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .menu-item {
+        padding: 0 20px;
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+
+    .menu-item h2 {
+        font-size: 21px;
+        padding-bottom: 5px;
+    }
+
+    #menu {
+        padding-top: 60px;
+    }
+
+    .menu-button .btn {
+        margin: 0 5px;
+    }
+
+    .menu-header {
+        padding-bottom: 30px;
+    }
+
+    .menu-button {
+        padding-bottom: 0;
+        padding-top: 10px;
+    }
+
+    #team {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    .team-header {
+        padding-bottom: 20px;
+    }
+
+    .review-item p {
+        padding: 0 0px;
+    }
+
+    .review-slider {
+        padding: 20px 30px;
+    }
+
+    #table {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+
+    .table-header h3 {
+        padding-bottom: 10px;
+    }
+
+    .table-input {
+        margin-top: 10px;
+    }
+
+    .table-button .btn {
+        margin-top: 18px;
+    }
+
+    .table-header p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    #open {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    .open-header {
+        padding-bottom: 40px;
+    }
+
+    #gallary {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    .gallary-header h3 {
+        padding-bottom: 25px;
+    }
+
+    .gallary-button .btn {
+        margin: 0 5px;
+    }
+
+    .gallary-button {
+        padding-bottom: 10px;
+    }
+
+    .gallary-button .btn {
+        margin-top: 30px;
+    }
+
+    #blog {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    #footer {
+        padding-top: 60px;
+    }
+
+    .footer-social i {
+        margin: 0 5px;
+    }
+
+    .footer-contact h3 {
+        font-size: 14px;
+    }
+
+
+}
+
+/*=================Extra large devices (large desktops, 1200px and up)=================*/
+
+@media (min-width: 1200px) {
+    /*
+    #banner {
+        padding-top: 145px;
+        padding-bottom: 150px;
+    }
+
+    .banner-a {
+        padding-top: 50px;
+    }
+
+    .banner-header h1 {
+        padding-bottom: 5px;
+    }
+*/
+
+
+
+
+
+
+
+
+
+}
